@@ -1,0 +1,26 @@
+.ourteam{
+background-color: #1a6a7b;
+width: 100%;
+min-height: 100%;
+}
+#ourteam1{
+  padding: 90px;
+  padding-left: 60px;
+}
+#ourteam2{
+padding-top: 70px;
+padding-bottom: 30px;
+padding-right: 125px;
+}
+.ourteamtitlecolor{
+  color: #ffffff;
+    line-height: .9;
+}
+.ourteamsubtitlecolor{
+    color: #8cb4bd;
+      line-height: .9;
+}
+
+.ourteamdescriptioncolor{
+    color: #8cb4bd;
+}

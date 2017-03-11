@@ -1,0 +1,51 @@
+html,body{
+  height: 100%;
+}
+#main{
+  padding: 0;
+  margin: 0 0 0 0 ;
+}
+.row{
+  margin-top: 0px;
+  padding-top: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+.col{
+  margin-top: 0px;
+  padding-top: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+#title{
+
+  font-size: 30px;
+  font-weight: bold;
+}
+#mini_title{
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+.title{
+text-align: right;
+font-size: 90px;
+line-height: 1.2;
+}
+.subtitle{
+text-align: right;
+font-size: 33px;
+line-height: 1.2;
+
+}
+.description {
+  text-align: right;
+  font-size: 15px;
+font-family: "Futura";
+line-height: 1.2;
+}

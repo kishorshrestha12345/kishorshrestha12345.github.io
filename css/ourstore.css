@@ -1,0 +1,46 @@
+.ourstore{
+  width: 100%;
+  min-height: 100%;
+  background-color:  white;
+}
+#ourstore1{
+  padding: 90px;
+  padding-left: 70px;
+}
+#ourstore2{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-right: 125px;
+
+}
+.ourstoretitlecolor{
+  color: #3d4348;
+  line-height: .9;
+}
+.ourstoresubtitlecolor{
+    color: #838c94;
+}
+
+.ourstoredescriptioncolor{
+    color: #838c94;
+}
+.ourstore button{
+  float: right;
+background: #e4861f;
+color: white;
+min-width: 170px;
+min-height: 50px;
+border: none;
+margin-top: 50px;
+font-size: 15px;
+font-family: 'sego print';
+
+}
+
+.ourstore button:hover{
+  color: #e4861f;
+  background: white;
+  font-size: 28px;
+  transition:all 1s ease;
+
+}

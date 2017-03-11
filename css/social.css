@@ -1,0 +1,32 @@
+.social{
+  padding: 10px;
+  width: 100%;
+  min-height: 8%;
+}
+.socialcol{
+width: 100%;
+height: 50px;
+
+}
+.footer{
+padding-top: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+.footer .container a {
+margin-top: 30px;
+  padding-top: 26px;
+  color: white;
+  font-size: 20px;
+padding: 15px;
+  transition: all .5s ease;
+}
+
+.footer .container a:hover {
+margin-top: 30px;
+  padding-top: 26px;
+padding: 25px;
+  color: #e4861f;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}

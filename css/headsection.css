@@ -1,0 +1,39 @@
+
+.headsection{
+  background-color: #1f282e;
+  min-height: 100%;
+  width: 100%;
+}
+.row{
+  margin-top: 0px;
+  padding-top: 0;
+}
+.col{
+  margin-top: 0px;
+  padding-top: 0;
+}
+#logo{
+padding-top: 90px;
+padding: 70px;
+}
+.headsection p{
+  text-align: right;
+  font-weight: lighter;
+color:  #838c94;
+  padding-top: 5px;
+
+}
+.headsection p:hover{
+color: #c1161a;
+
+}
+.headsectiondetails{
+  padding: 70px;
+padding-top: 100px;
+}
+.headsectiondetailsfont{
+  font-size: 30px;
+}
+#welcomecolor{
+  color: #c1161a;
+}

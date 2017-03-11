@@ -1,0 +1,32 @@
+.weare{
+  width: 100%;
+  min-height: 100%;
+
+  background: white;
+
+}
+
+#weare1{
+  padding: 90px;
+  padding-left: 70px;
+
+}
+#weare2{
+  padding-top: 70px;
+  padding: 30px;
+  padding-right: 125px;
+}
+.wearetitlecolor{
+    color: #7a1b47;
+}
+
+.wearesubtitlecolor{
+    color: #838c94;
+      line-height: .9;
+}
+.wearedescriptioncolor{
+    color: #838c94;
+}
+.weare p:hover{
+  color: #7a1b47;
+}
