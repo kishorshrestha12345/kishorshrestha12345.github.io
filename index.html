@@ -5,8 +5,6 @@
     <title>KiRa.com</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <script type="text/javascript" src="js/navbar.js"></script>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="icon"type=" image/png" href="images/logotop.png">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/headsection.css">
@@ -30,17 +28,31 @@
 
   </head>
   <body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#aboutuslink">About us</a>
-  <a href="#ourservicelink">Services</a>
-  <a href="#ourworklink">Our Works</a>
-  <a href="#ourteamlink">Our Team</a>
-  <a href="#teamjoinlink">Join Team</a>
-  <a href="#bloglink">Our blog</a>
-  <a href="#storelink">Our Store</a>
-  <a href="#contactlink">Contact us</a>
-</div>
+<!--nav bar -->
+  <div class="navbar navbar-static-top" data-spy="affix" id="nav_bar">
+    <div class="container">
+      
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeader">
+				       <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navHeader " >
+                        <center>
+                          <ul class="nav navbar-nav navbar-right red" >
+                          <li><a href="#aboutuslink" class="menustyle">About us</a></li>
+                          <li><a href="#ourservicelink" class="menustyle">services</a></li>
+                          <li><a href="#ourworklink" class="menustyle">Works</a></li>
+                          <li><a href="#bloglink" class="menustyle">blog</a></li>
+                          <li><a href="#storelink" class="menustyle">Store</a></li>
+                          <li><a href="#contactlink" class="menustyle">Contact us</a></li>
+                        </ul>
+                      </center>
+
+                    </div>
+
+    </div>
+  </div>
 
 <div class="headsection">
   <div class="row">
@@ -232,27 +244,7 @@
 </div>
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
-  <!--nav bar -->
-  <div class="" data-spy="affix" id="nav_bar">
-    <div class="container">
-      <nav class="navbar navbar-light bg-faded">
-  <a class="navbar-brand" onclick="openNav()" >
-    <img src="images/menu2.png" alt="" width="40" height="30" class="img-responsive">
-  </a>
-</nav>
-
-<div class="collapse navbar-collapse navHeader" >
-<div class="navicons">
-  <a href="#"><i class="fa fa-facebook fb"></i></a>
-  <a href="#"><i class="fa fa-instagram"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-  <a href="#"><i class="fa fa-google-plus"></i></a>
-  <a href="#"><i class="fa fa-skype"></i></a>
-</div>
-</div>
-    </div>
-  </div>
+  
 </div>
 
   </body>
